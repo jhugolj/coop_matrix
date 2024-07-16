@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device=width, initial-scale=1.0">
+    <title>Avaliação da Identidade Cooperativa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="container">
+    <h1>Avaliação da Identidade Cooperativa</h1> <br> <h2>Princípios do Cooperativismo - Matriz de Comparação</h2>
+    <form action="#" method="post" id="comparisonForm">
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2">COMPARAÇÃO DOS PRINCÍPIOS <br> -selecione o mais importante <br> ou <br> indique na coluna ao lado se são iguais</th>
+                    <th colspan="2"><strong>AVALIAÇÃO<br></strong> - Diga o quanto é igual ou mais importante</th>
+                </tr>
+                <tr>
+                    <th>Princípio A</th>
+                    <th>Princípio B</th>
+                    <th>São iguais?</th>
+                    <th>Pontuação (2-9)</th>
+                </tr>
+            </thead>
+            <tbody id="comparisonRows">
+                <!-- As linhas da tabela serão geradas dinamicamente aqui -->
+            </tbody>
+        </table>
+        <input type="button" value="Construir a Matriz" id="buildMatrixButton">
+        <input type="button" value="Resultado" id="calculateResultsButton">
+        <input type="button" value="Salvar e Download (ODS)" id="saveDownloadButton">
+    </form>
+</div>
+<div id="matrixResult"></div>
+<div id="results"></div>
+<canvas id="resultsChart" width="400" height="200"></canvas>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2"></script>
+<script src="script.js"></script>
+</body>
+</html>

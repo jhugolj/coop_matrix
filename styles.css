@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c3d6c9; /* Cinza claro */
+    margin: 0;
+    padding: 0;
+}
+#container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #e7edfd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    font-size: 24px;
+    color: #0e5c0d;
+    text-align: center;
+    margin-bottom: 5px;
+}
+h2 {
+    font-size: 20px;
+    color: #156429;
+    text-align: center;
+    margin-bottom: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+table, th, td {
+    border: 1px solid #ccc; /* Cinza claro */
+    border: 2px solid #547c54;
+}
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: #23634d; /* Verde escuro */
+    color: #dfa25b;
+}
+td {
+    background-color: #f9f9f9; /* Cinza claro */
+}
+td input[type="radio"], td input[type="checkbox"], td select {
+    margin: 0 5px;
+}
+input[type="button"], input[type="submit"] {
+    background-color: #183f17; /* Verde escuro */
+    color: #dfa25b;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+input[type="button"]:hover, input[type="submit"]:hover {
+    background-color: #4f7151; /* Verde escuro mais escuro ao passar o mouse */
+}
+#matrixResult, #results {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc; /* Cinza claro */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.principle-color {
+    background-color: #E0E0E0; /* Cor base para os princípios */
+}
